@@ -67,7 +67,7 @@ input {
   height: calc(100vh - 12rem);
   background-color: #ecf0f1;
   position: relative;
-  padding-top: .7rem;
+  /* padding-top: .7rem; */
   overflow: scroll;
   display: flex;
 }
@@ -119,6 +119,10 @@ input {
 .dummy-cell{
   background-color: gray;
   border: none;
+  position: sticky;
+  top: 0;
+  left: 0;
+  
 }
 .right-cell{
   width: 5.7rem;
@@ -128,13 +132,23 @@ input {
   place-items: center;
   font-size: large;
   
+  
 }
 
 .left{
   display: inline-block;
+  position: sticky;
+  top: 0;
+  left: 0;
+  /* z-index: 4; */
+  
 }
 .right-top{
   display: flex;
+  position: sticky;
+  top: 0;
+  left: 2.7rem;
+ 
   /* overflow: scroll; */
 }
 .right-bottom{
@@ -149,6 +163,7 @@ input {
   /* width: 5.7rem;
   height: 2.7rem; */
   border: 1px solid rgb(204, 203, 203);
+  outline: none;
  
   
   font-size: large;
