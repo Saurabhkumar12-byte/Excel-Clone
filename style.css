@@ -54,7 +54,7 @@ img {
   overflow: hidden;
 }
 #last {
-  width: 87%;
+  width: 84%;
 }
 input {
   height: 80%;
@@ -137,17 +137,17 @@ input {
 
 .left{
   display: inline-block;
-  position: sticky;
+  /* position: sticky;
   top: 0;
-  left: 0;
+  left: 0; */
   /* z-index: 4; */
   
 }
 .right-top{
   display: flex;
-  position: sticky;
-  top: 0;
-  left: 2.7rem;
+  /* position: sticky; */
+  /* top: 0;
+  left: 2.7rem; */
  
   /* overflow: scroll; */
 }
@@ -167,4 +167,8 @@ input {
  
   
   font-size: large;
+}
+#address-bar{
+  font-size: large;
+  padding: .4rem;
 }
